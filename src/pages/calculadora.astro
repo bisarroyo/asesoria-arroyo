@@ -1,7 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro"
+
+import Calc from '../components/Calc'
 ---
 
 <Layout title="Calculadora de Interés">
-  
+  <main class="container px-4">
+    <Calc client:visible />
+  </main>
 </Layout>

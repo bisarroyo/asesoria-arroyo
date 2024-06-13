@@ -37,19 +37,19 @@ export default function App() {
         />
         <NavbarBrand>
           {/* <AcmeLogo /> */}
-          <p className='font-bold text-inherit'>ACME</p>
+          <p className='font-bold text-inherit'>Asesoría Arroyo</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className='hidden sm:flex gap-4' justify='center'>
         <NavbarItem>
-          <Link color='foreground' href='#'>
-            Features
+          <Link color='foreground' href='/'>
+            Inicio
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href='#' aria-current='page'>
-            Customers
+          <Link href='/calculadora' aria-current='page'>
+            Calculadora
           </Link>
         </NavbarItem>
         <NavbarItem>
